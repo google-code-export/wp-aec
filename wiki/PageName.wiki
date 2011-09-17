@@ -1,0 +1,76 @@
+#labels Phase-Deploy
+==Installation==
+
+# [http://codex.wordpress.org/Managing_Plugins#Installing_Plugins WordPress plugin installation]
+# To create the front-end calendar: create a page or a post with any desired title.
+# Add `[calendar]` shortcode to the body of the page (works with native WordPress page publishing and template options)
+# Save the page or post
+# Blog time zone option must be a city value (plugin cannot handle dates properly if set to gmt_offset)
+# When upgrading, it is always good practice to backup any critical data.  To backup the calendar data you'll need to download and install a WordPress backup plugin.  Select a plugin that can backup and restore custom (non-wordpress) tables.
+
+==Shortcode Options==
+[http://codex.wordpress.org/Shortcode_API Learn how to use shortcodes].
+The following shortcodes can be applied to a text widget, a page or a post.
+To display a minicalendar in the sidebar, use `[calendar mini=true]`.
+As of Version 1.0 the `[eventlist]` shortcode replaces the Upcoming Events widget, *the widget will be removed in future plugin versions*.
+
+Most shortcode parameters can be applied together, for example:
+`[calendar categories="1,2,3" filter=2 month=8 views=false scroll=true]`
+`[eventlist categories="1,2,3" excluded=true start="2011-09-01' end="+3 Weeks" limit=5 noresults="No Events Available"]`
+
+All optional parameters are listed below followed by = [some sample input] and their (default settings).
+
+<br>These options may be used with both the **[calendar]** and the **[eventlist]** shortcodes:
+
+Display events from the specified category id(s) - ids are listed on the plugin's **Categories** page
+`categories=[1,2,3] (all)`
+
+Exclude categories listed in the categories parameter
+`excluded=[true] (false)`
+
+<br>These options may be used exclusively with the **[calendar]** shortcode:
+
+Highlight the specified category id in filter
+`filter=[3] (all)`
+
+Display the specified calendar view
+`view=[basicDay|agendaDay|basicWeek|agendaWeek|month] (month)`
+
+Display the specified calendar month on load
+`month=[10] (current month)`
+
+Display the specified calendar year on load
+`year=[2012] (current year)`
+
+Display the specified calendar view options in the calendar header - views show as Day, Week and Month<br>
+NOTE: specifying more than one day or week option is not supported
+`views=[basicDay|agendaDay|basicWeek|agendaWeek|month] ("month,agendaWeek")`
+
+Display calendar navigation buttons
+`nav=false (true)`
+
+Activate calendar mousewheel navigation
+`scroll=true (false)`
+
+Assign a minimum pixel height to the calendar
+`height=200 (null)`
+
+Display the calendar as a minicalendar (textless events, views=false, filter=false, height=200px), looks best when applied to a text widget.
+`mini=true (false)`
+
+<br>These options may be used exclusively with the **[eventlist]** shortcode:
+
+Display events starting on or after the specified date (the format and the quotes are required)
+`start=["yyyy-mm-dd"] (today)`
+
+Display events ending on or before the specified date/interval
+`end=["yyyy-mm-dd"|"+1 Day"|"+2 Weeks"|"+3 Months"|"+4 Years"] (+1 Year)`
+
+Limit events displayed to the specified quantity
+`limit=[15] (4)`
+
+Render events without category colors
+`whitelabel=[true] (false)`
+
+Display this message when no events are returned
+`noresults=["No Results"] ("No Upcoming Events")`
