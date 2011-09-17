@@ -3,10 +3,10 @@
 
 # [http://codex.wordpress.org/Managing_Plugins#Installing_Plugins WordPress plugin installation]
 # To create the front-end calendar: create a page or a post with any desired title.
-# Add `[calendar]` shortcode to the body of the page (works with native WordPress page publishing and template options)
+# Add `[calendar]` shortcode to the body of the page (works with native !WordPress page publishing and template options)
 # Save the page or post
 # Blog time zone option must be a city value (plugin cannot handle dates properly if set to gmt_offset)
-# When upgrading, it is always good practice to backup any critical data.  To backup the calendar data you'll need to download and install a WordPress backup plugin.  Select a plugin that can backup and restore custom (non-wordpress) tables.
+# When upgrading, it is always good practice to backup any critical data.  To backup the calendar data you'll need to download and install a !WordPress backup plugin.  Select a plugin that can backup and restore custom (non-wordpress) tables.
 
 ==Shortcode Options==
 [http://codex.wordpress.org/Shortcode_API Learn how to use shortcodes].
