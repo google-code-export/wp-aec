@@ -1,0 +1,10 @@
+#labels Phase-Deploy
+  # [http://codex.wordpress.org/Managing_Plugins#Installing_Plugins WordPress plugin installation].
+  # If you are unfamiliar with shortcode usage, [http://codex.wordpress.org/Shortcode_API learn how to use shortcodes].
+  # To create a new calendar, add the `[calendar]` shortcode to the body of a page, a post or a text widget.
+    * When adding the shortcode to a text widget in the sidebar or footer, use the `[calendar mini=true]` minicalendar format option.
+  # To create a new event list, add the `[eventlist]` shortcode to the body of a page, a post or a text widget.
+    * As of version 1.0 this replaces the Upcoming Events widget, *the widget will be removed in future plugin versions*.
+  # When adding shortcodes to pages or posts be sure to use the !WordPress *HTML* editor view - *not the Visual editor view*.
+  # Your blog time zone option must be a city value - the plugin will not handle dates correctly when set to a numeric gmt_offset.
+  # It is good practice to backup critical data prior to upgrading the plugin.  Select a plugin from the [http://wordpress.org/extend/plugins/ WordPress Plugins Repository] that can backup and restore custom (non-!WordPress) tables.
