@@ -1,70 +1,63 @@
 #labels Phase-Deploy
+===**`[`calendar`]`** and **`[`eventlist`]`** options===
 
-===**`[calendar]`** and **`[eventlist]`** shortcode options:===
+*categories* = "1,2,3" `[` one or more comma separated category ids `]` (_all categories_)
+<br>Display events from the specified category id(s)
 
-*categories* = "1,2,3"
-<br>Display events from the specified category id(s): _all_
-<br>_ids are listed on the plugin's **Categories** page_
-
-*excluded* = true
-<br>Exclude categories listed in the categories parameter: _false_
+*excluded* = true `[` true | false `]` (_false_)
+<br>Exclude categories listed in the categories parameter
 
 
-===**`[calendar]`** shortcode options:===
+<br>
+===**`[`calendar`]`** only options===
 
-*filter* = 3
-<br>Highlight the specified category id in filter - _displays all categories when unassigned_
+*filter* = 3 `[` integer `]` (_all_)
+<br>Highlight the specified category id in filter
 
-*view* = "basicDay" `[ basicDay | agendaDay | basicWeek | agendaWeek | month ]`
-<br>Display the specified calendar view - _displays month when unassigned_
+*view* = "basicDay" `[ basicDay | agendaDay | basicWeek | agendaWeek | month ]` (_month_)
+<br>Display the specified calendar view
 
-*month* = 10] (current month)
-Display the specified calendar month on load*
+*month* = 10 `[` integer `]` (_current month_)
+<br>Display the specified calendar month on load
 
+*year* = 2001 `[` four digit integer `]` (_current year_)
+<br>Display the specified calendar year on load
 
-*Display the specified calendar year on load*
+*views* = "agendaDay, basicWeek" `[` one or more comma separated view labels `]` (_"month,agendaWeek"_)
+<br>Display the specified view option(s) in the calendar header
 
-`year=[2012] (current year)`
+*nav* = false `[` true | false `]` (_true_)
+<br>Display calendar navigation buttons
 
-*Display the specified calendar view options in the calendar header - views show as Day, Week and Month*
+*scroll* = true `[` true | false `]` (_false_)
+<br>Activate calendar mousewheel navigation
 
-_NOTE: specifying more than one day or week option is not supported_
+*height* = 200 `[` integer `]` (_defined by aspect ratio_)
+<br>Assign a minimum pixel height to the calendar
 
-`views=[basicDay|agendaDay|basicWeek|agendaWeek|month] ("month,agendaWeek")`
+*mini* = true `[` true | false `]` (_false_)
+<br>Display the calendar as a minicalendar, most effective when applied to a text widget
 
-*Display calendar navigation buttons*
+<br>
+===**`[`eventlist`]`** only options===
 
-`nav=false (true)`
+*start* = "2011-07-10" `[` date `]` (_today_)
+<br>Display events starting on or after the specified date (yyyy-mm-dd date format required)
 
-*Activate calendar mousewheel navigation*
+*end* = "+2 Weeks" `[` date | `[` Day | Week | Month | Year `]` intervals `]` (_"+1 Year"_)
+<br>Display events ending on or before the specified date or date interval (yyyy-mm-dd date format required)
 
-`scroll=true (false)`
+*limit* = 15 `[` integer`]` (_4_)
+<br>Limit events displayed to the specified quantity
 
-*Assign a minimum pixel height to the calendar*
-`height=200 (null)`
+*whitelabel* = true `[` true | false `]` (_false_)
+<br>Render events without category colors
 
-*Display the calendar as a minicalendar - best when applied to a text widget.*
+*noresults* = "No Results" `[` text `]` (_"No Upcoming Events"_)
+<br>Display this message when no events are returned
 
-`mini=true (false)`
-
-===These options may be used exclusively with the **[eventlist]** shortcode:===
-
-Display events starting on or after the specified date (the format and the quotes are required)
-`start=["yyyy-mm-dd"] (today)`
-
-Display events ending on or before the specified date/interval
-`end=["yyyy-mm-dd"|"+1 Day"|"+2 Weeks"|"+3 Months"|"+4 Years"] (+1 Year)`
-
-Limit events displayed to the specified quantity
-`limit=[15] (4)`
-
-Render events without category colors
-`whitelabel=[true] (false)`
-
-Display this message when no events are returned
-`noresults=["No Results"] ("No Upcoming Events")`
-
-Multiple shortcode parameters can be applied simultaneously, for example:
+<br>
+===Parameters can be applied simultaneously===
 
 `[calendar categories="1,2,3" filter=2 month=8 views=false scroll=true]`
 
