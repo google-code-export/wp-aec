@@ -1,5 +1,5 @@
 #labels Phase-Deploy
-===**`[`calendar`]`** and **`[`eventlist`]`** options===
+===`[`calendar`]` and `[`eventlist`]` options===
 
 *categories* = "1,2,3" `[`one or more comma separated category ids`]` (_all categories_)
 <br>Display events from the specified category id(s)
@@ -9,7 +9,7 @@
 
 
 <br>
-===**`[`calendar`]`** only options===
+===`[`calendar`]` only options===
 
 *filter* = 3 `[`integer`]` (_all_)
 <br>Highlight the specified category id in filter
@@ -39,7 +39,7 @@
 <br>Display the calendar as a minicalendar, most effective when applied within a text widget
 
 <br>
-===**`[`eventlist`]`** only options===
+===`[`eventlist`]` only options===
 
 *start* = "2011-07-10" `[`date`]` (_today_)
 <br>Display events starting on or after the specified date (yyyy-mm-dd date format required)
