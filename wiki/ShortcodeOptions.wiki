@@ -60,6 +60,7 @@
 
 <br>
 ===Parameters can be applied simultaneously===
+_Examples_
 
 `[calendar categories="1,2,3" filter=2 month=8 views=false scroll=true]`
 
