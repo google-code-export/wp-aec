@@ -1,4 +1,6 @@
 #labels Phase-Deploy
+===Installation===
+
   # [http://codex.wordpress.org/Managing_Plugins#Installing_Plugins WordPress plugin installation].
   # If you are unfamiliar with shortcode usage, [http://codex.wordpress.org/Shortcode_API learn about shortcodes].
   # To create a new calendar, add the `[`calendar`]` shortcode to the body of a page, a post or a text widget.
