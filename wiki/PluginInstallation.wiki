@@ -1,5 +1,5 @@
 #labels Phase-Deploy
-=Installation=
+=Plugin Installation=
 
   # Follow the typical [http://codex.wordpress.org/Managing_Plugins#Installing_Plugins WordPress plugin installation steps].
   # If you are unfamiliar with shortcode usage, [http://codex.wordpress.org/Shortcode_API learn about shortcodes].
