@@ -1,4 +1,6 @@
 #labels Phase-Deploy
+=Shortcode Options=
+
 ===`[`calendar`]` and `[`eventlist`]` options===
 
 *categories* = "1,2,3" `[`one or more comma separated category ids`]` (_all categories_)
