@@ -1,59 +1,59 @@
 #labels Phase-Deploy
 ===**`[`calendar`]`** and **`[`eventlist`]`** options===
 
-*categories* = "1,2,3" `[` one or more comma separated category ids `]` (_all categories_)
+*categories* = "1,2,3" `[`one or more comma separated category ids`]` (_all categories_)
 <br>Display events from the specified category id(s)
 
-*excluded* = true `[` true | false `]` (_false_)
+*excluded* = true `[`true | false`]` (_false_)
 <br>Exclude categories listed in the categories parameter
 
 
 <br>
 ===**`[`calendar`]`** only options===
 
-*filter* = 3 `[` integer `]` (_all_)
+*filter* = 3 `[`integer`]` (_all_)
 <br>Highlight the specified category id in filter
 
-*view* = "basicDay" `[ basicDay | agendaDay | basicWeek | agendaWeek | month ]` (_month_)
+*view* = "basicDay" `[`basicDay | agendaDay | basicWeek | agendaWeek | month`]` (_month_)
 <br>Display the specified calendar view
 
-*month* = 10 `[` integer `]` (_current month_)
+*month* = 10 `[`integer`]` (_current month_)
 <br>Display the specified calendar month on load
 
-*year* = 2001 `[` four digit integer `]` (_current year_)
+*year* = 2001 `[`four digit integer`]` (_current year_)
 <br>Display the specified calendar year on load
 
-*views* = "agendaDay, basicWeek" `[` one or more comma separated view labels `]` (_"month,agendaWeek"_)
+*views* = "agendaDay, basicWeek" `[`one or more comma separated view labels`]` (_"month,agendaWeek"_)
 <br>Display the specified view option(s) in the calendar header
 
-*nav* = false `[` true | false `]` (_true_)
+*nav* = false `[`true | false`]` (_true_)
 <br>Display calendar navigation buttons
 
-*scroll* = true `[` true | false `]` (_false_)
+*scroll* = true `[`true | false`]` (_false_)
 <br>Activate calendar mousewheel navigation
 
-*height* = 200 `[` integer `]` (_defined by aspect ratio_)
+*height* = 200 `[`integer`]` (_defined by aspect ratio_)
 <br>Assign a minimum pixel height to the calendar
 
-*mini* = true `[` true | false `]` (_false_)
-<br>Display the calendar as a minicalendar, most effective when applied to a text widget
+*mini* = true `[`true | false`]` (_false_)
+<br>Display the calendar as a minicalendar, most effective when applied within a text widget
 
 <br>
 ===**`[`eventlist`]`** only options===
 
-*start* = "2011-07-10" `[` date `]` (_today_)
+*start* = "2011-07-10" `[`date`]` (_today_)
 <br>Display events starting on or after the specified date (yyyy-mm-dd date format required)
 
-*end* = "+2 Weeks" `[` date | `[` Day | Week | Month | Year `]` intervals `]` (_"+1 Year"_)
+*end* = "+2 Weeks" `[`date | `[`Day | Week | Month | Year`]` intervals`]` (_"+1 Year"_)
 <br>Display events ending on or before the specified date or date interval (yyyy-mm-dd date format required)
 
-*limit* = 15 `[` integer`]` (_4_)
+*limit* = 15 `[`integer`]` (_4_)
 <br>Limit events displayed to the specified quantity
 
-*whitelabel* = true `[` true | false `]` (_false_)
+*whitelabel* = true `[`true | false`]` (_false_)
 <br>Render events without category colors
 
-*noresults* = "No Results" `[` text `]` (_"No Upcoming Events"_)
+*noresults* = "No Results" `[`text`]` (_"No Upcoming Events"_)
 <br>Display this message when no events are returned
 
 <br>
