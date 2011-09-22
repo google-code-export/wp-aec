@@ -13,8 +13,8 @@
 <br>
 ===`[`calendar`]` only options===
 
-*filter* = 3 `[`integer`]` (_all_)
-<br>Highlight the specified category id in filter
+*filter* = 3 `[`integer | false`]` (_all_)
+<br>Highlight the specified category id in filter (specify false to hide the filter)
 
 *view* = "basicDay" `[`basicDay | agendaDay | basicWeek | agendaWeek | month`]` (_month_)
 <br>Display the specified calendar view
