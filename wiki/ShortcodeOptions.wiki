@@ -1,17 +1,17 @@
 #labels Phase-Deploy
 =Shortcode Options=
 
-===`[`calendar`]` and `[`eventlist`]` options===
+===`[`calendar`]` and `[`eventlist`]` optional parameters===
 
 *categories* = "1,2,3" `[`one or more comma separated category ids`]` (_all categories_)
 <br>Display events from the specified category id(s)
 
-*excluded* = true `[`true | false`]` (_false_)
-<br>Exclude categories listed in the categories parameter
+*excluded* = true `[`true`]` (_false_)
+<br>Exclude categories listed in the categories parameter from being displayed
 
 
 <br>
-===`[`calendar`]` only options===
+===`[`calendar`]` only optional parameters===
 
 *filter* = 3 `[`integer | false`]` (_all_)
 <br>Highlight the specified category id in the filter, and display only those events in the calendar (false hides the filter)
@@ -25,23 +25,23 @@
 *year* = 2001 `[`four digit integer`]` (_current year_)
 <br>Display the specified calendar year on load
 
-*views* = "agendaDay, basicWeek" `[`one or more comma separated view labels`]` (_"month,agendaWeek"_)
+*views* = "agendaDay, basicWeek" `[`one or more comma separated view labels | false `]` (_"month,agendaWeek"_)
 <br>Display the specified view option(s) in the calendar header
 
-*nav* = false `[`true | false`]` (_true_)
+*nav* = false `[`false`]` (_true_)
 <br>Display calendar navigation buttons
 
-*scroll* = true `[`true | false`]` (_false_)
+*scroll* = true `[`true`]` (_false_)
 <br>Activate calendar mousewheel navigation
 
-*height* = 200 `[`integer`]` (_defined by aspect ratio_)
+*height* = 200 `[`integer`]` (_automatic, when not specified_)
 <br>Assign a minimum pixel height to the calendar
 
-*mini* = true `[`true | false`]` (_false_)
-<br>Display the calendar as a minicalendar, most effective when applied within a text widget
+*mini* = true `[`true`]` (_false_)
+<br>Display the calendar as a minicalendar, displays nicely when applied within a sidebar or footer text widget
 
 <br>
-===`[`eventlist`]` only options===
+===`[`eventlist`]` only  optional parameters===
 
 *start* = "2011-07-10" `[`date`]` (_today_)
 <br>Display events starting on or after the specified date (yyyy-mm-dd date format required)
@@ -52,7 +52,7 @@
 *limit* = 15 `[`integer`]` (_4_)
 <br>Limit events displayed to the specified quantity
 
-*whitelabel* = true `[`true | false`]` (_false_)
+*whitelabel* = true `[`true`]` (_false_)
 <br>Render events without category colors
 
 *noresults* = "No Results" `[`text`]` (_"No Upcoming Events"_)
