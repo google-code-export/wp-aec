@@ -3,59 +3,74 @@
 
 ===`[`calendar`]` and `[`eventlist`]` optional parameters===
 
-*categories* = "1,2,3" `[`one or more comma separated category ids`]` (_all categories_)
+*categories* = "1,2,3" `[`one or more comma separated category ids`]` <br>when unassigned: _all categories_
 <br>Display events from the specified category id(s)
 
-*excluded* = true `[`true`]` (_false_)
+*excluded* = true `[`true`]`
+<br>when unassigned: _false_
 <br>Exclude categories listed in the categories parameter from being displayed
 
 
 <br>
 ===`[`calendar`]` only optional parameters===
 
-*filter* = 3 `[`integer | false`]` (_all_)
-<br>Highlight the specified category id in the filter, and display only those events in the calendar (false hides the filter)
+*filter* = 3 `[`integer | false`]`
+<br>when unassigned: _all_
+<br>Highlight the specified category id in the filter, and display only those events in the calendar; input *false* to hide the filter
 
-*view* = "basicDay" `[`basicDay | agendaDay | basicWeek | agendaWeek | month`]` (_month_)
+*view* = "basicDay" `[`basicDay | agendaDay | basicWeek | agendaWeek | month`]`
+<br>when unassigned: _month_
 <br>Display the specified calendar view
 
-*month* = 10 `[`integer`]` (_current month_)
+*month* = 10 `[`integer`]`
+<br>when unassigned: _current month_
 <br>Display the specified calendar month on load
 
-*year* = 2001 `[`four digit integer`]` (_current year_)
+*year* = 2001 `[`four digit integer`]`
+<br>when unassigned: _current year_
 <br>Display the specified calendar year on load
 
-*views* = "agendaDay, basicWeek" `[`one or more comma separated view labels | false `]` (_"month,agendaWeek"_)
+*views* = "agendaDay, basicWeek" `[`one or more comma separated view labels | false `]`
+<br>when unassigned: _"month,agendaWeek"_
 <br>Display the specified view option(s) in the calendar header
 
-*nav* = false `[`false`]` (_true_)
+*nav* = false `[`false`]`
+<br>when unassigned: _true_
 <br>Display calendar navigation buttons
 
-*scroll* = true `[`true`]` (_false_)
+*scroll* = true `[`true`]`
+<br>when unassigned: _false_
 <br>Activate calendar mousewheel navigation
 
-*height* = 200 `[`integer`]` (_automatic, when not specified_)
+*height* = 200 `[`integer`]`
+<br>when unassigned: _automatic_
 <br>Assign a minimum pixel height to the calendar
 
-*mini* = true `[`true`]` (_false_)
+*mini* = true `[`true`]`
+<br>when unassigned: _false_
 <br>Display the calendar as a minicalendar, displays nicely when applied within a sidebar or footer text widget
 
 <br>
 ===`[`eventlist`]` only  optional parameters===
 
-*start* = "2011-07-10" `[`date`]` (_today_)
+*start* = "2011-07-10" `[`date`]`
+<br>when unassigned: _today_
 <br>Display events starting on or after the specified date (yyyy-mm-dd date format required)
 
-*end* = "+2 Weeks" `[`date | `[`Day | Week | Month | Year`]` intervals`]` (_"+1 Year"_)
+*end* = "+2 Weeks" `[`date | `[`Day | Week | Month | Year`]` intervals`]`
+<br>when unassigned: _"+1 Year"_
 <br>Display events ending on or before the specified date or date interval (yyyy-mm-dd date format required)
 
-*limit* = 15 `[`integer`]` (_4_)
+*limit* = 15 `[`integer`]` 
+<br>when unassigned: _4_
 <br>Limit events displayed to the specified quantity
 
-*whitelabel* = true `[`true`]` (_false_)
+*whitelabel* = true `[`true`]`
+<br>when unassigned: _false_
 <br>Render events without category colors
 
-*noresults* = "No Results" `[`text`]` (_"No Upcoming Events"_)
+*noresults* = "No Results" `[`text`]` 
+<br>when unassigned: _"No Upcoming Events"_
 <br>Display this message when no events are returned
 
 <br>
