@@ -16,7 +16,7 @@
 
 *filter* = 3 `[`integer | false`]`
 <br>defaults to _all_ when unassigned
-<br>Highlight the specified category id in the filter, and display only those events in the calendar; input *false* to hide the filter
+<br>Highlight the specified category id in the filter, and display only those events in the calendar - input *false* to hide the filter
 
 *view* = "basicDay" `[`basicDay | agendaDay | basicWeek | agendaWeek | month`]`
 <br>defaults to _month_ when unassigned
@@ -32,7 +32,7 @@
 
 *views* = "agendaDay, basicWeek" `[`one or more comma separated view labels | false `]`
 <br>defaults to _"month,agendaWeek"_ when unassigned
-<br>Display the specified view option(s) in the calendar header
+<br>Display the specified view options in the calendar header - input *false* to hide the default view options
 
 *nav* = false `[`false`]`
 <br>defaults to _true_ when unassigned
