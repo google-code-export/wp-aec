@@ -22,7 +22,7 @@ Make sure your theme templates contain `<?php wp_head(); ?>` just before the clo
   * Did you add the `[calendar]` shortcode to a page, post or text widget?  Read the plugin [PluginInstallation installation].
 
 == I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only a link for "Add Events" and the filter. ==
-  * See the first FAQ answer.
+  * See the <a href="#I have an issue with the plugin, what steps should I take?">first FAQ answer</a>.
 
 == I want to modify some of the styles in the calendar ==
   * View your site using Firefox browser with [http://getfirebug.com/ Firebug plugin] activated.  Read about using Firebug and learn how to "inspect" specific page elements for styling.  
@@ -95,7 +95,7 @@ Make sure your theme templates contain `<?php wp_head(); ?>` just before the clo
 == How can I configure !WordPress to display in my language? ==
   * [http://codex.wordpress.org/WordPress_in_Your_Language Configure WordPress in Your Language]
 
-== The calendar does not work when SSL logins for WordPress Administrators are forced with “define('FORCE_SSL_ADMIN', true);” in the wp-config.php file. == 
+== The calendar does not work when SSL logins for !WordPress Administrators are forced with “define('FORCE_SSL_ADMIN', true);” in the wp-config.php file. == 
 This issue can be resolved by overriding the URL in the plugin code to the http:// version instead of the https:// version that is returned by the "admin_url()" function.
 
 == When I try to activate the plugin I get an error about my PHP version ==
