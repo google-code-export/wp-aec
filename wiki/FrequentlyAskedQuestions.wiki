@@ -22,7 +22,7 @@ Make sure your theme templates contain `<?php wp_head(); ?>` just before the clo
   * Did you add the `[calendar]` shortcode to a page, post or text widget?  Read the plugin [PluginInstallation installation].
 
 == I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only a link for "Add Events" and the filter. ==
-  * See the <a href="#I have an issue with the plugin, what steps should I take?">first FAQ answer</a>.
+  * See the <a href="#I_have_an_issue_with_the_plugin,_what_steps_should_I_take?">first FAQ answer</a>.
 
 == I want to modify some of the styles in the calendar ==
   * View your site using Firefox browser with [http://getfirebug.com/ Firebug plugin] activated.  Read about using Firebug and learn how to "inspect" specific page elements for styling.  
