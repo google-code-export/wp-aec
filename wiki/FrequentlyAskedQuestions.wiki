@@ -1,14 +1,14 @@
 #labels Phase-Support
-=FAQ=
+= FAQ =
 
-==I have an issue with the plugin, what steps should I take?==
-  # First, read this page to see if your issue has been addressed.
-  # Search the [http://wordpress.org/tags/ajax-event-calendar forum], enter the name of the plugin in quotes and your keyword(s) using the search box in the upper right-hand corner of the page<br>Example: {{{"ajax event calendar" css}}}
-  # If you don't find any relevant results - start troubleshooting by removing all possible external conflicts - disable all other plugins and switch to the Twenty Twelve theme.  View your site using the Firefox browser with the [http://getfirebug.com/ Firebug plugin] activated.  With all possible external conflicts disabled the calendar should work as expected, if not, !JavaScript errors will appear in the firebug console listing both the file and line causing problems.
-  # If the calendar works as expected, begin restoring your original settings - one by one - and test the calendar between each addition.
-  # When the calendar stops functioning, note the error in the firebug console.  If the error is caused by a file in another plugin or a theme, contact that plugin/theme author for assistance.
-  # If no errors appear, search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for known bugs and resolutions.
-  # If you can't find a solution, submit a bug report there, include all the steps necessary to reproduce the issue.
+== I have an issue with the plugin, what steps should I take? ==
+  * Read this page to see if your issue has been addressed.
+  * Search the [http://wordpress.org/tags/ajax-event-calendar forum], enter the name of the plugin in quotes and your keyword(s) using the search box in the upper right-hand corner of the page<br>Example: `"ajax event calendar" css`
+  * If you don't find any relevant results - start troubleshooting by removing all possible external conflicts - disable all other plugins and switch to the Twenty Twelve theme.  View your site using the Firefox browser with the [http://getfirebug.com/ Firebug plugin] activated.  With all possible external conflicts disabled the calendar should work as expected, if not, !JavaScript errors will appear in the firebug console listing both the file and line causing problems.
+  * If the calendar works as expected, begin restoring your original settings - one by one - and test the calendar between each addition.
+  * When the calendar stops functioning, note the error in the firebug console.  If the error is caused by a file in another plugin or a theme, contact that plugin/theme author for assistance.
+  * If no errors appear, search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for known bugs and resolutions.
+  * If you can't find a solution, submit a bug report there, include all the steps necessary to reproduce the issue.
 
 == I have a feature request for the plugin, what steps should I take? ==
 Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for enhancement requests.
@@ -18,73 +18,82 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
 == The front-end calendar does not work in my custom theme ==
 Make sure your theme templates contain `<?php wp_head(); ?>` just before the closing `</head>` tag and `<?php wp_footer(); ?>` just before the closing `</body>` tag.
 
-== The administrative calendar displays, but the front-end calendar does not display ==
-Did you add the [[calendar]] shortcode to a page, post or text widget?  Read the plugin [http://wordpress.org/extend/plugins/ajax-event-calendar/installation/ installation instructions].
+== The administrative calendar appears, but the front-end calendar does not ==
+  * Did you add the `[calendar]` shortcode to a page, post or text widget?  Read the plugin [PluginInstallation installation].
 
-= I added the [calendar] shortcode to a page, but I can't see the calendar.  I only a link for "Add Events" and the filter. =
-See the answer to "= I have an issue with the plugin, what steps should I take? ="
+== I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only a link for "Add Events" and the filter. ==
+  * See the first FAQ answer.
 
-= I want to modify some of the styles in the calendar =
-View your site using Firefox browser with [Firebug plugin](http://getfirebug.com/) activated.  Read about using Firebug and learn how to "inspect" specific page elements for styling.  Once you have settled on the look you want, add the overriding style to *your theme's css* not the custom.css file (the custom.css file is not preserved when the plugin is updated).  Confirm your changes with Firebug, it's an invaluable tool you can use many times over.
+== I want to modify some of the styles in the calendar ==
+  * View your site using Firefox browser with [http://getfirebug.com/ Firebug plugin] activated.  Read about using Firebug and learn how to "inspect" specific page elements for styling.  
+  * Once you have settled on the look you want, add the overriding style to *your theme's css* not the custom.css file (the custom.css file is not preserved when the plugin is updated).  Confirm your changes with Firebug, it's an invaluable tool for web design.
 
-= Calendar categories are not displaying in the calendar and only the "all" link in the event filter has a background color OR The category colors no longer appear in the filter, the calendar or the event list. =
-[See issue 56](http://code.google.com/p/wp-aec/issues/detail?id=56)
+== Calendar categories are not displaying in the calendar and only the "all" link in the event filter has a background color OR The category colors no longer appear in the filter, the calendar or the event list. ==
+  * [http://code.google.com/p/wp-aec/issues/detail?id=56 See issue 56]
 
-= All apostrophes in the event detail form, returns \' when I save the event.  And returns \\' on subsequent saves =
-This will occur when your PHP server is configured to use magic quotes gpc.  The developers of PHP [strongly recommend against using magic quotes](http://php.net/manual/en/security.magicquotes.php), in fact, the functionality has been removed from the latest versions of PHP.
-<br>To correct this behavior: edit your php.ini file, or ask your host provider to do so, [as described here](http://php.net/manual/en/security.magicquotes.disabling.php).
+== All apostrophes in the event detail form, returns \' when I save the event.  And returns \\' on subsequent saves ==
+  * This will occur when your PHP server is configured to use magic quotes gpc. 
+  * The developers of PHP [http://php.net/manual/en/security.magicquotes.php strongly recommend against using magic quotes]
+  * This functionality has been removed from the current PHP versions.
+  * To correct this behavior: edit your php.ini file, [http://php.net/manual/en/security.magicquotes.disabling.php as described here], or ask your host provider.
 
-= How do I manage events? =
-As with Google Calendar: to add an event, in the administrative calendar page click on a date (or range of dates) in the month view, or click on a half-hour (or range of hours) timeslot in the week view.  Only users assigned the **aec_add_events** capability can edit and delete events they create by clicking on events in the administrative calendar page.  Users assigned the **aec_manage_events** capability can edit and delete all events.
+== How do I manage events? ==
+  * To add a new event: in the administrative calendar page click on a date (or range of dates) in the month view, or click on a half-hour (or range of hours) timeslot in the week view.
+  * To edit, delete or copy an event, click on an existing event and select the desired option in the event detail modal.
+  * Users assigned the **aec_add_events** capability can edit and delete events they create by clicking on events in the administrative calendar page.
+  * Users assigned the **aec_manage_events** capability can edit and delete all events.
 
-= How do I manage event categories? =
-To add a category simply enter the desired category name in the input field, select a background color via the colorpicker or enter the hex value in the field provided.  Only users assigned the aec_manage_calendar capability can manage categories.
+== How do I manage event categories? ==
+  * To add a category: simply enter the desired category name in the input field, select a background color via the colorpicker or enter the hex value in the field provided.
+  * Only users assigned the aec_manage_calendar capability can manage categories.
 
-= I want to grant calendar rights to a user without giving them access to all blog administrative menus =
-Install a [Capabilities/Roles management plugin](http://sct.temple.edu/blogs/it/2011/02/16/members-vs-capability-manager-plug-in/), and assign the capabilities listed in the plugin description, to existing or newly created roles.
+== I want to grant calendar rights to a user without giving them access to all blog administrative menus ==
+  * Install a [http://sct.temple.edu/blogs/it/2011/02/16/members-vs-capability-manager-plug-in/ Capabilities/Roles management plugin], and assign the capabilities listed in the plugin description, to existing or newly created roles.
 
-= Is there a way to configure the WordPress to allow users that come to the site to can register and create their own events (so not every event would need to be created by the administrator)? =
-Absolutely!  If you allow users to self-register and you'll need to change WordPress settings so that the default role assigned to new users is Calendar Contributor.
+== Is there a way to configure the !WordPress to allow users that come to the site to can register and create their own events (so not every event would need to be created by the administrator)? ==
+  * Absolutely!  If you allow users to self-register and you'll need to change !WordPress settings so that the default role assigned to new users is Calendar Contributor.
 
-= What happens when the plugin is deleted? =
-The event and category databases, custom roles, plugin capabilities, plugin options and widget settings are **permanently removed**.
+== What happens when the plugin is deleted? ==
+  * The event and category databases, custom roles, plugin capabilities, plugin options and widget settings are **permanently removed**.
 
-= What happens to user events when they are deleted? =
-All events associated with a deleted user are **permanently deleted**.
+== What happens to user events when they are deleted? ==
+  * All events associated with a deleted user are **permanently deleted**.
 
-= What happens to events associated with a deleted category? =
-All events associated with a deleted category are re-assigned to the primary category.
+== What happens to events associated with a deleted category? ==
+  * All events associated with a deleted category are re-assigned to the primary category.
 
-= I want to include the calendar to my theme.  Is there a way to call and display the calendar without short codes? =
-Yes, place this code in your template at the desired location `<?php echo do_shortcode('[calendar]') ?>`.
+== I want to include the calendar to my theme.  Is there a way to call and display the calendar without short codes? ==
+  * Yes, place this code in your template at the desired location `<?php echo do_shortcode('[calendar]') ?>`.
 
-= Does the AEC support the WordPress Network (Multisite) feature? When I tried to implement it on a multisite I was unable to add events or categories on any of the sub sites except the primary. =
-The plugin does not specifically support multisite setups.  However, one user claims the plugin works if "activated on a site-by-site basis."
+== Does the AEC support the !WordPress Network (Multisite) feature? When I tried to implement it on a multisite I was unable to add events or categories on any of the sub sites except the primary. ==
+  * The plugin does not specifically support multisite setups.  However, one user claims the plugin works if "activated on a site-by-site basis."
 
-= How can I add "print calendar" functionality on the calendar page? =
-To add print functionality, open a post or page, select the HTML tab in Wordpress Post editor, and enter this code snippet above or below the calendar shortcode: `<a href="javascript:window.print();">Print Page</a>`.  If you want to hide certain page elements, such as sidebars you'll need to add print specific rules to your theme stylesheet.  For helpful resources to start you off, search for "Print Style Sheets" in your favorite search engine.
+== How can I add "print calendar" functionality on the calendar page? ==
+  * To add print functionality, open a post or page, select the HTML tab in !Wordpress Post editor, and enter this code snippet above or below the calendar shortcode: `<a href="javascript:window.print();">Print Page</a>`.  
+  * If you want to hide certain page elements, such as sidebars you'll need to add print specific rules to your theme stylesheet.  
+  * For helpful resources to start you off, search for "Print Style Sheets" in your favorite search engine.
 
-= How can I add images to the event detail? =
-Insert the image in the description field of the desired event, don't forget to include a height parameter or your event detail box may not size correctly.
+== How can I add images to the event detail? ==
+  * Insert the image in the description field of the desired event, don't forget to include a height parameter or your event detail box may not size correctly.
 
-= How can I hide the Duration box and text? =
-Add `#aec-modal .duration{display:none}` to *your theme css file*
+== How can I hide the Duration box and text? ==
+  * Add `#aec-modal .duration{display:none}` to *your theme css file*.
 
-= How can I change current day background and font color? =
-Add the `.fc-state-highlight` class to your theme stylesheet and apply the desired color rules
+== How can I change current day background and font color? ==
+  * Add the `.fc-state-highlight` class to your theme stylesheet and apply the desired color rules.
 
-= How can I put the calendar on the home page? =
-Create a front-end calendar as described in the plugin installation page.
-Then follow the instructions described [in this link](http://codex.wordpress.org/Creating_a_Static_Front_Page).
+== How can I put the calendar on the home page? ==
+  * Create a front-end calendar as described in the plugin installation page, then follow [http://codex.wordpress.org/Creating_a_Static_Front_Page these instructions].
 
-= Is there a way to link directly to a post/page/anything from the calendar? =
-No, this plugin was created to function independently of posts and uses a different set of database tables.
+== Is there a way to link directly to a post/page/anything from the calendar? ==
+  * No, this plugin was created to function independently of posts and uses a different set of database tables.
+  * However, you can input links in the Event Link field to any URL of your choosing.
 
-= Can I import/link Google calendars to the Ajax Event Calendar? =
-No, this calendar emulates the look and feel of Google Calendar but also extends the field options beyond what is offered by Google.
+== Can I import/link Google calendars to the Ajax Event Calendar? ==
+  * No, this calendar emulates the look and feel of Google Calendar but also extends the field options beyond what is offered by Google.
 
 == How can I configure WordPress to display in my language? ==
-http://codex.wordpress.org/WordPress_in_Your_Language
+  * [http://codex.wordpress.org/WordPress_in_Your_Language Configure WordPress in Your Language]
 
-= When I try to activate the plugin I get an error about my PHP version, how can I fix this? =
-Search your ISP host's FAQ for "How can I enable PHP5?"
+== When I try to activate the plugin I get an error about my PHP version, how can I fix this? ==
+  * Search your ISP host's FAQ for "How can I enable PHP5?"
