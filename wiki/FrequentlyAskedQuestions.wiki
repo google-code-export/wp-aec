@@ -95,5 +95,5 @@ Make sure your theme templates contain `<?php wp_head(); ?>` just before the clo
 == How can I configure !WordPress to display in my language? ==
   * [http://codex.wordpress.org/WordPress_in_Your_Language Configure WordPress in Your Language]
 
-== When I try to activate the plugin I get an error about my PHP version, how can I fix this? ==
+== When I try to activate the plugin I get an error about my PHP version ==
   * Search your ISP host's FAQ for "How can I enable PHP5?"
