@@ -56,11 +56,11 @@ Make sure your theme templates contain `<?php wp_head(); ?>` just before the clo
 == What happens when the plugin is deleted? ==
   * The event and category databases, custom roles, plugin capabilities, plugin options and widget settings are **permanently removed**.
 
-== What happens to user events when they are deleted? ==
-  * All events associated with a deleted user are **permanently deleted**.
+== What happens to events when a user account is deleted? ==
+  * All events associated with a deleted user are **permanently removed**.
 
-== What happens to events associated with a deleted category? ==
-  * All events associated with a deleted category are re-assigned to the primary category.
+== What happens to events when a category is deleted? ==
+  * Upon deletion, all events associated with a deleted category will be reassigned to the primary category.
 
 == I want to include the calendar to my theme.  Is there a way to call and display the calendar without short codes? ==
   * Yes, place this code in your template at the desired location `<?php echo do_shortcode('[calendar]') ?>`.
