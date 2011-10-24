@@ -74,6 +74,6 @@
 <br>Display this message when no events are returned
 
 <br>
-_Examples_
+_Examples_<br>
 `[calendar categories="1,2,3" filter=2 month=8 views=false scroll=true]`
 `[eventlist categories="1,2,3" excluded=true start="2011-09-01' end="+3 Weeks" limit=5 noresults="No Events Available"]`
