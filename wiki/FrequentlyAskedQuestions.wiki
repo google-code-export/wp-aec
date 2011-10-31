@@ -16,12 +16,13 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
   * If you don't find your request in queue, submit a feature request include the purpose of the feature and detailed scenarios of how it would be used.
 
 == The front-end calendar does not work in my custom theme ==
-Make sure your theme templates contain `<?php wp_head(); ?>` just before the closing `</head>` tag and `<?php wp_footer(); ?>` just before the closing `</body>` tag.
+  * Make sure your theme templates contain `<?php wp_head(); ?>` just before the closing `</head>` tag and `<?php wp_footer(); ?>` just before the closing `</body>` tag.
 
 == The administrative calendar appears, but the front-end calendar does not ==
-  * Did you add the `[calendar]` shortcode to a page, post or text widget?  Read the plugin [PluginInstallation installation].
+  * Did you add the `[calendar]` shortcode to a page, post or text widget?
+  * Read the plugin [PluginInstallation installation guide].
 
-== I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only a link for "Add Events" and the filter. ==
+== I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only see the link for "Add Events" and the filter color boxes. ==
   * See [https://code.google.com/p/wp-aec/wiki/FrequentlyAskedQuestions#I_have_an_issue_with_the_plugin,_what_steps_should_I_take? the first FAQ answer].
 
 == I want to modify some of the styles in the calendar ==
