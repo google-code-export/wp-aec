@@ -29,7 +29,7 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
   * View your site using Firefox browser with [http://getfirebug.com/ Firebug plugin] activated.  Read about using Firebug and learn how to "inspect" specific page elements for styling.  
   * Once you have settled on the look you want, add the overriding style to *your theme's css* not the custom.css file (the custom.css file is not preserved when the plugin is updated).  
   * Confirm your changes with Firebug, it's an invaluable tool for web design.
-  * Remember, edits to existing style definitions require the use of *!important* after the property value, for example: #aec-calendar{background:#blue !important;...}, to override the background color. BE CAREFUL!  This can have unexpected effects on your theme when applied to styles used throughout the theme.  Use specific selectors when performing overrides of this kind.
+  * Remember, edits to existing style definitions require the use of *!important* after the property value, for example: `#aec-calendar{background:#blue !important;...}` overrides background color.<br>*BE CAREFUL* this can have unexpected effects on your theme when applied to styles used throughout the theme.  Use specific selectors when performing overrides of this kind.
   * If you're stuck and can't figure out what to do, post your questions on the forum so that others can try to help.
 
 == Calendar categories are not displaying in the calendar and only the "all" link in the event filter has a background color OR The category colors no longer appear in the filter, the calendar or the event list. ==
