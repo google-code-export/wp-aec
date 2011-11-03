@@ -7,8 +7,10 @@
   * If you don't find any relevant results - start troubleshooting by removing all possible external conflicts - disable all other plugins and switch to the Twenty Twelve theme.  View your site using the Firefox browser with the [http://getfirebug.com/ Firebug plugin] activated.  With all possible external conflicts disabled the calendar should work as expected, if not, !JavaScript errors will appear in the firebug console listing both the file and line causing problems.
   * If the calendar works as expected, begin restoring your original settings - one by one - and test the calendar between each addition.
   * When the calendar stops functioning, note the error in the firebug console.  If the error is caused by a file in another plugin or a theme, contact that plugin/theme author for assistance.
+  * If no javascript errors appear, first check your wp-content folder for a debug.log file - if it exists it should have reveal clues that may be causing the conflict.  If the file does not exist, check your PHP error log (ask your host if you don't know where they are located) for troublespots.
   * If no errors appear, search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for known bugs and resolutions.
-  * If you can't find a solution, submit a bug report there, include all the steps necessary to reproduce the issue.
+  * If you still can't find a solution, submit a bug report there, include ALL THE STEPS necessary to reproduce the issue.  If I can't reproduce the problem I will not be able to help.
+  * Due to time constraints, I am unable to freely offer troubleshooting help caused by implementation.  Feel free to contact me directly about my hourly consultation and development rates for customization.
 
 == I have a feature request for the plugin, what steps should I take? ==
 Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for enhancement requests.
