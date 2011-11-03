@@ -10,7 +10,8 @@
   * If no javascript errors appear, first check your wp-content folder for a debug.log file - if it exists it should have reveal clues that may be causing the conflict.  If the file does not exist, check your PHP error log (ask your host if you don't know where they are located) for troublespots.
   * If no errors appear, search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for known bugs and resolutions.
   * If you still can't find a solution, submit a bug report there, include ALL THE STEPS necessary to reproduce the issue.  If I can't reproduce the problem I will not be able to help.
-  * Due to time constraints, I am unable to freely offer troubleshooting help caused by implementation.  Feel free to contact me directly about my hourly consultation and development rates for customization.
+  * Due to time constraints, I am unable to freely offer troubleshooting help, so the more information you provide in your submissions, the more likely I will be to assist.
+  * I am presently available for consultation and development at an hourly rate.
 
 == I have a feature request for the plugin, what steps should I take? ==
 Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for enhancement requests.
