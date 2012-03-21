@@ -4,7 +4,7 @@
   # Follow the typical [http://codex.wordpress.org/Managing_Plugins#Installing_Plugins WordPress plugin installation steps].
   # If you are unfamiliar with shortcode usage, [http://codex.wordpress.org/Shortcode_API learn about shortcodes].
   # To create a new calendar, add the `[`calendar`]` shortcode to the body of a page, a post or a text widget.
-  # To create a new event list, add the `[`eventlist`]` shortcode to the body of a page, a post or a text widget.  As of version 1.0 this replaces the Upcoming Events widget, *the widget will be removed in future plugin versions*.
+  # To create a new event list, add the `[`eventlist`]` shortcode to the body of a page, a post or a text widget.  This replaces the Upcoming Events widget, *which as of version 1.0.1 has been removed*.
   # Shortcode display can be customized using these [ShortcodeOptions  Shortcode Options].
 
 <br>
