@@ -4,11 +4,11 @@
 == I have an issue with the plugin, what steps should I take? ==
   * Read this page to see if your issue has been addressed.
   * Search the [http://wordpress.org/tags/ajax-event-calendar forum], enter the name of the plugin in quotes and your keyword(s) using the search box in the upper right-hand corner of the page<br>Example: `"ajax event calendar" css` - If you don't find any relevant results, here are a few tips for troubleshooting conflicts:
-  * First, in order to systematically remove all possible conflicts, disable all other plugins and switch to the Twenty Twelve theme (the conflict could be caused by javascript in your theme).  View your site using the Firefox browser with the [http://getfirebug.com/ Firebug plugin] activated.
-  * With all possible external conflicts disabled the calendar should work as expected, if not JavaScript errors will appear in the firebug console listing both the file and line causing problems.
+  * First, in order to systematically remove all possible conflicts, disable all other plugins and switch to the Twenty Twelve theme (the conflict could be caused by !JavaScript in your theme).  View your site using the Firefox browser with the [http://getfirebug.com/ Firebug plugin] activated.
+  * With all possible external conflicts disabled the calendar should work as expected, if not !JavaScript errors will appear in the firebug console listing both the file and line causing problems.
   * If the calendar works as expected, begin restoring your original settings - one by one - and test the calendar between each addition.
   * When the calendar stops functioning, note the error in the firebug console.  If the error is caused by a file in another plugin or a theme, contact that plugin/theme author for assistance.
-  * If no javascript errors appear, first check your wp-content folder for a debug.log file - if it exists it should have clues about what may be causing the conflict.  If the debug.log file does not exist, check your PHP error log (ask your hosting service if you don't know where that file is located).
+  * If no !JavaScript errors appear, first check your wp-content folder for a debug.log file - if it exists it should have clues about what may be causing the conflict.  If the debug.log file does not exist, check your PHP error log (ask your hosting service if you don't know where that file is located).
   * If no errors appear, search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for known bugs and resolutions.
   * If you still can't find a solution, submit a bug report there, include ALL THE STEPS necessary to reproduce the issue - if I am unable to reproduce the problem I will not be able to assist.
   * Due to time constraints, I am unable to freely offer troubleshooting assistance.  I am available for consultation and custom solution development at an hourly rate.
