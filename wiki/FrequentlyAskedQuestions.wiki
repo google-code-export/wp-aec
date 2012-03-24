@@ -3,7 +3,7 @@
 
 == I have an issue with the plugin, what steps should I take? ==
   * Read this page to see if your issue has been addressed.
-  * Search the [http://wordpress.org/tags/ajax-event-calendar forum], enter the name of the plugin in quotes and your keyword(s) using the search box in the upper right-hand corner of the page<br>Example: `"ajax event calendar" css` - If you don't find any relevant results, here are a few tips for troubleshooting conflicts:
+  * Search the [http://wordpress.org/tags/ajax-event-calendar forum], enter the name of the plugin in quotes and your keyword(s) using the search box in the upper right-hand corner of the page<br>Example: `"ajax event calendar" css` - If you don't find any relevant results, here are a few tips for troubleshooting conflicts.
   * First, in order to systematically remove all possible conflicts, disable all other plugins and switch to the Twenty Twelve theme (the conflict could be caused by !JavaScript in your theme).  View your site using the Firefox browser with the [http://getfirebug.com/ Firebug plugin] activated.
   * With all possible external conflicts disabled the calendar should work as expected, if not !JavaScript errors will appear in the firebug console listing both the file and line causing problems.
   * If the calendar works as expected, begin restoring your original settings - one by one - and test the calendar between each addition.
@@ -11,12 +11,18 @@
   * If no !JavaScript errors appear, first check your wp-content folder for a debug.log file - if it exists it should have clues about what may be causing the conflict.  If the debug.log file does not exist, check your PHP error log (ask your hosting service if you don't know where that file is located).
   * If no errors appear, search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for known bugs and resolutions.
   * If you still can't find a solution, submit a bug report there, include ALL THE STEPS necessary to reproduce the issue - if I am unable to reproduce the problem I will not be able to assist.
-  * Due to time constraints, I am unable to freely offer troubleshooting assistance.  I am available for consultation and custom solution development at an hourly rate.
+  * Due to time constraints, I am unable to freely offer troubleshooting assistance.  If you're stuck post your questions on the forum so that others can try to help.  And if you are interested in hiring me for consultation or custom solution development, I am available at a fare hourly rate.
 
 == I have a feature request for the plugin, what steps should I take? ==
 Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for enhancement requests.
   * If you find your request already in queue, *click on the star* beside the issue number to indicate your interest in the feature.
   * If you don't find your request in queue, submit a feature request include the purpose of the feature and detailed scenarios of how it would be used.
+
+== I want to change the appearance of the calendar/eventlist ==
+  * View your site using Firefox browser with [http://getfirebug.com/ Firebug plugin] activated.  Read about using Firebug and learn how to "inspect" page elements for styling.
+  * Firebug allows you to adjust the style on a live site, so once you have the desired look, just add the style to *your theme's css* not the custom.css file (the custom.css file will not be preserved when the plugin is updated).  
+  * REMEMBER: edits to existing style definitions require use of the *!important* flag after the property value, for example: `#aec-calendar{background:#blue !important;...}`.<br>*BE CAREFUL* this can have unanticipated effects on your design when applied to elements used throughout your theme.  For that reason, it is good practice to use the most specific selectors possible when performing these overrides.
+  * If you're stuck post your questions on the forum so that others can try to help.
 
 == The front-end calendar does not work in my custom theme ==
   * Make sure your theme templates contain `<?php wp_head(); ?>` just before the closing `</head>` tag and `<?php wp_footer(); ?>` just before the closing `</body>` tag.
@@ -27,13 +33,6 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
 
 == I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only see the link for "Add Events" and the filter color boxes. ==
   * See [https://code.google.com/p/wp-aec/wiki/FrequentlyAskedQuestions#I_have_an_issue_with_the_plugin,_what_steps_should_I_take? the first FAQ answer].
-
-== I want to modify some of the styles in the calendar ==
-  * View your site using Firefox browser with [http://getfirebug.com/ Firebug plugin] activated.  Read about using Firebug and learn how to "inspect" specific page elements for styling.  
-  * Once you have settled on the look you want, add the overriding style to *your theme's css* not the custom.css file (the custom.css file is not preserved when the plugin is updated).  
-  * Confirm your changes with Firebug, it's an invaluable tool for web design.
-  * Remember, edits to existing style definitions require the use of *!important* after the property value, for example: `#aec-calendar{background:#blue !important;...}` overrides background color.<br>*BE CAREFUL* this can have unexpected effects on your theme when applied to styles used throughout the theme.  Use specific selectors when performing overrides of this kind.
-  * If you're stuck and can't figure out what to do, post your questions on the forum so that others can try to help.
 
 == Calendar categories are not displaying in the calendar and only the "all" link in the event filter has a background color OR The category colors no longer appear in the filter, the calendar or the event list. ==
   * [http://code.google.com/p/wp-aec/issues/detail?id=56 See issue 56]
