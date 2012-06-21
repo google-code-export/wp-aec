@@ -1,0 +1,44 @@
+= Eventlist Display =
+_Shortcode options are listed in the following format_
+<br>*option* = "sample value" `[` *default* | valid input type `]`
+
+*categories* = "1,2,3" `[` *all* | one or more comma separated category ids `]`
+<br>Category ids listed on the plugin Manage Categories page
+<br>Display only events associated with listed categories
+
+*excluded* = true `[` *false* | true `]`
+<br>Display only events NOT associated with categories listed in the categories parameter
+
+*start* = "2011-07-10" `[` "*today*" | [#Date_Options see Date options] `]`
+<br>Display events starting on or after the specified date
+
+*end* = "tomorrow" `[` *"+1 year"* | [#Date_Options see Date options] `]`
+<br>Display events ending on or before the specified date
+
+*limit* = 5 `[` *15* | integer `]`
+<br>Limit events displayed to the specified integer
+
+*whitelabel* = true `[` *false* | true `]`
+<br>Display events without colors
+
+*reverse* = false `[` *false* | true `]`
+<br>Display events in reverse order
+
+*noresults* = "Nada" `[` *"No Upcoming Events"* | text `]`
+<br>Display specified text when no events are returned
+
+= Date Options =
+_Acceptable dates input include:_
+  # `[` YYYY-MM-DD `]` 
+    * 2010-10-10
+    * 2011-01-01
+  # `[` + | - `]` `[` 1 - 9 | next | last `]` `[` days | week/s | month/s | year/s `]`
+    * +3 days
+    * +2 weeks
+    * -2 months
+    * -3 years
+    * last week
+    * next month
+    * yesterday
+    * tomorrow
+    * today
