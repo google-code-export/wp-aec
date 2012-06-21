@@ -12,7 +12,7 @@ _Shortcode options are listed in the following format_
   * *noresults* = "Nada" `[` *"No Upcoming Events"* | text `]` <br>Display specified text when no events are returned
 
 = Available Date Inputs =
-  # {{{YYYY-MM-DD}}}
+  # YYYY-MM-DD
     * 2010-10-10
     * 2011-01-01
   # next | last | today | tomorrow | yesterday | week | month | year
@@ -29,12 +29,19 @@ _Shortcode options are listed in the following format_
     * -3 years (three years prior to current date)
 
 = Examples =
-_All examples are based on hypothetical categories 1, 2, 3 and 4_
-  # Display categories 1, 2 and 4, beginning in the last 7 days, ending today (default), listed in reverse order, limited to the last 10 events
-{{{[eventlist categories="1,2,4" start="last week" limit=10 reverse=true]}}}
-  # Display category 3 only, beginning March 1, 2012, ending March 7, 2012
-{{{[eventlist categories=3 excluded=true start="2012-03-01" end="2012-03-07"]}}}
-
+  # Display category id 3 only, beginning March 1, 2012, ending March 7, 2012
+{{{
+[eventlist categories=1,2,4 start="2012-03-01" end="2012-03-07"]
+}}}
+  # Assuming a setup with category ids 1, 2, 3 and 4; this shortcode produces the same result as the previous shortcode by using the *excluded* parameter.
+{{{
+[eventlist categories=3 excluded=true start="2012-03-01" end="2012-03-07"]
+}}}
+  Tip: _Consider using the *excluded* parameter for easier category selection for setups with many categories in situations where fewer categories are to be omitted from display._
+ # Display category ids 1, 2 and 4, beginning in the last 7 days, ending today (default), listed in reverse order, limited to the last 10 events
+{{{
+[eventlist categories="1,2,4" start="last week" limit=10 reverse=true]
+}}}
 
 = Category IDs =
 Category ids are listed on the plugin's Manage Categories page
