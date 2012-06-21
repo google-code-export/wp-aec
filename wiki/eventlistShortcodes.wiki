@@ -1,45 +1,32 @@
 = Eventlist Shortcode Display Options =
 _Shortcode options are listed in the following format_
-<br>*option* = "sample value" `[` *default* | valid input type `]`
+<br>*option* = "sample value" `[` valid inputs `]` *defaults are listed in bold*
 
-  # *categories* = "1,2,3" `[` *all* | one or more comma separated category ids `]`
-<br>Display only events associated with listed [#Category_IDs category ids*]
-
-  # *excluded* = true `[` *false* | true `]`
-<br>Display only events NOT associated with categories listed in the categories parameter
-
-  # *start* = "2011-07-10" `[` "*today*" | [#Available_Date_Inputs Available Date Inputs] `]`
-<br>Display events starting on or after the specified date
-
-  # *end* = "tomorrow" `[` *"+1 year"* | [#Available_Date_Inputs Available Date Inputs] `]`
-<br>Display events ending on or before the specified date
-
-  # *limit* = 5 `[` *15* | integer `]`
-<br>Limit events displayed to the specified integer
-
-  # *whitelabel* = true `[` *false* | true `]`
-<br>Display events without colors
-
-  # *reverse* = false `[` *false* | true `]`
-<br>Display events in reverse order
-
-  # *noresults* = "Nada" `[` *"No Upcoming Events"* | text `]`
-<br>Display specified text when no events are returned
+  * *categories* = "1,2,3" `[` one or more comma separated category ids `]` *all categories are displayed when undefined* <br>Display only events associated with listed [#Category_IDs category ids*]
+  * *excluded* = true `[` *false* | true `]` <br>Display only events NOT associated with categories listed in the categories parameter
+  * *start* = "2011-07-10" `[` "*today*" | [#Available_Date_Inputs Available Date Inputs] `]` <br>Display events starting on or after the specified date
+  * *end* = "tomorrow" `[` *"+1 year"* | [#Available_Date_Inputs Available Date Inputs] `]` <br>Display events ending on or before the specified date
+  * *limit* = 5 `[` *15* | integer `]` <br>Limit events displayed to the specified integer
+  * *whitelabel* = true `[` *false* | true `]` <br>Display events without colors
+  * *reverse* = false `[` *false* | true `]` <br>Display events in reverse order
+  * *noresults* = "Nada" `[` *"No Upcoming Events"* | text `]` <br>Display specified text when no events are returned
 
 = Available Date Inputs =
   # {{{YYYY-MM-DD}}}
     * 2010-10-10
     * 2011-01-01
-  # `[` (+/-)1-9 | next | last | today | tomorrow | yesterday `]` `[` days | week/s | month/s | year/s `]`
+  # next | last | today | tomorrow | yesterday | week | month | year
     * today
     * tomorrow
     * yesterday
     * last week
     * next month
-    * +3 days
-    * +2 weeks
-    * -2 months
-    * -3 years
+    * last year
+  # (+/-) integer `[` days | weeks | months | years `]`
+    * +3 days (three days from current date)
+    * +2 weeks  (two weeks from current date)
+    * -2 months (two months prior to current date)
+    * -3 years (three years prior to current date)
 
 = Examples =
 _All examples are based on hypothetical categories 1, 2, 3 and 4_
