@@ -1,5 +1,4 @@
 = Videos =
-
   * [http://www.youtube.com/watch?v=TxbwE4R5MTw Free WordPress Calendar Plugin] The !WordPress Chick
   * [http://www.driveactiondigital.com/2012/01/09/ajax-event-calendar-plugin-tutorial/ Ajax Event Calendar Plugin Tutorial] Drive Action Digital 
   * [http://www.mywordpresswiki.com/public-how-to-videos/event-calendar-tutorial-ajax-event-calendar/ Event Calendar Tutorial (Ajax Event Calendar)] !WordPress Wiki
@@ -8,10 +7,10 @@
   * [http://chattykattie.wordpress.com/2012/04/24/event-calendar/ Event Calendar] chattykattie
   * [http://www.wpsnippet.com/event-calendar-for-wordpress/ Event calendar for WordPress] WP Snippet
 
-
 = Lists =
-  * [http://www.webdesignerdepot.com/2011/12/adding-an-advanced-calendar-to-wordpress/ Adding an advanced calendar to WordPress] webdesigner depot
-  * [http://wplift.com/wordpress-events-booking-calendar-plugins WordPress Events, Booking & Calendar Plugins] wplift
+  * [http://heliosmm.com/10-wordpress-plugins-you-must-have/ 10 WordPress Plugins You Must Have] Helios Media Marketing
+  * [http://technfuture.com/top-ten-wordpress-ajax-plugins/ Top Ten WordPress Ajax Plugins] Technfuture
   * [http://www.putontheglasses.com/blog/11-of-our-favorite-wordpress-plugins 11 of Our Favorite Wordpress Plugins] POTG (put on the glasses)
   * [http://www.virtual-force.com/best-wordpress-plugins-of-2011 Best WordPress Plugins of 2011] Virtual Force
-  * [http://technfuture.com/top-ten-wordpress-ajax-plugins/ Top Ten WordPress Ajax Plugins] Technfuture
+  * [http://www.webdesignerdepot.com/2011/12/adding-an-advanced-calendar-to-wordpress/ Adding an advanced calendar to WordPress] webdesigner depot
+  * [http://wplift.com/wordpress-events-booking-calendar-plugins WordPress Events, Booking & Calendar Plugins] wplift
