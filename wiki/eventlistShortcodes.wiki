@@ -1,4 +1,4 @@
-= Eventlist Display =
+= Eventlist Shortcode Display Options =
 _Shortcode options are listed in the following format_
 <br>*option* = "sample value" `[` *default* | valid input type `]`
 
