@@ -53,3 +53,4 @@ _Shortcode options are listed in the following format_
 
 = Category IDs =
 Category ids are listed on the plugin's Manage Categories page
+http://dl.dropbox.com/u/6059938/manage%20categories.png
