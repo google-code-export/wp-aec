@@ -8,10 +8,10 @@ _Shortcode options are listed in the following format_
 *excluded* = true `[` *false* | true `]`
 <br>Display only events NOT associated with categories listed in the categories parameter
 
-*start* = "2011-07-10" `[` "*today*" | [#Date_Options see Date options] `]`
+*start* = "2011-07-10" `[` "*today*" | [#Available_Date_Inputs Available Date Inputs] `]`
 <br>Display events starting on or after the specified date
 
-*end* = "tomorrow" `[` *"+1 year"* | [#Date_Options see Date options] `]`
+*end* = "tomorrow" `[` *"+1 year"* | [#Available_Date_Inputs Available Date Inputs] `]`
 <br>Display events ending on or before the specified date
 
 *limit* = 5 `[` *15* | integer `]`
