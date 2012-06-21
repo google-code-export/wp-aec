@@ -33,7 +33,7 @@ _All examples are based on hypothetical categories 1, 2, 3 and 4_
   # Display categories 1, 2 and 4, beginning in the last 7 days, ending today (default), listed in reverse order, limited to the last 10 events
 {{{[eventlist categories="1,2,4" start="last week" limit=10 reverse=true]}}}
   # Display category 3 only, beginning March 1, 2012, ending March 7, 2012
-{{{[eventlist categories=3 excluded=true start="2012-03-01" end="2012-03-07"]
+{{{[eventlist categories=3 excluded=true start="2012-03-01" end="2012-03-07"]}}}
 
 
 = Category IDs =
