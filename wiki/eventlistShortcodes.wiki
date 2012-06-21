@@ -26,21 +26,20 @@ _Shortcode options are listed in the following format_
 *noresults* = "Nada" `[` *"No Upcoming Events"* | text `]`
 <br>Display specified text when no events are returned
 
-= Date Options =
-_Acceptable dates input include:_
+= Available Date Inputs =
   # `[` YYYY-MM-DD `]` 
     * 2010-10-10
     * 2011-01-01
   # `[` + | - `]` `[` 1 - 9 | next | last `]` `[` days | week/s | month/s | year/s `]`
+    * today
+    * tomorrow
+    * yesterday
+    * last week
+    * next month
     * +3 days
     * +2 weeks
     * -2 months
     * -3 years
-    * last week
-    * next month
-    * yesterday
-    * tomorrow
-    * today
 
 = Category IDs =
 Category ids are listed on the plugin's Manage Categories page
