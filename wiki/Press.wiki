@@ -1,5 +1,5 @@
 = Videos =
-  * [http://www.youtube.com/watch?v=TxbwE4R5MTw Free WordPress Calendar Plugin] The !WordPress Chick
+  * [http://thewpchick.com/wp-news-tips-and-ideas/plugins/wordpress-calendar-plugin-free-looks-great-too-video/ Free WordPress Calendar Plugin] The !WordPress Chick
   * [http://www.driveactiondigital.com/2012/01/09/ajax-event-calendar-plugin-tutorial/ Ajax Event Calendar Plugin Tutorial] Drive Action Digital 
   * [http://www.mywordpresswiki.com/public-how-to-videos/event-calendar-tutorial-ajax-event-calendar/ Event Calendar Tutorial (Ajax Event Calendar)] !WordPress Wiki
 
