@@ -2,14 +2,21 @@
 _Shortcode options are listed in the following format_
 <br>*option* = "sample value" `[` valid inputs `]` *defaults are listed in bold*
 
-  * *categories* = "1,2,3" `[` one or more comma separated category ids `]` *all categories are displayed when undefined* <br>Display only events associated with listed [#Category_IDs category ids*]
-  * *excluded* = true `[` *false* | true `]` <br>Display only events NOT associated with categories listed in the categories parameter<br>*Tip*: _Consider using the *excluded* parameter for setups with many categories in situations where fewer categories are to be omitted from display - it means less typing, and also automatically includes any newly created category ids without changes to the shortcode parameters._
-  * *start* = "2011-07-10" `[` "*today*" | [#Available_Date_Inputs Available Date Inputs] `]` <br>Display events starting on or after the specified date
-  * *end* = "tomorrow" `[` *"+1 year"* | [#Available_Date_Inputs Available Date Inputs] `]` <br>Display events ending on or before the specified date
-  * *limit* = 5 `[` *15* | integer `]` <br>Limit events displayed to the specified integer
-  * *whitelabel* = true `[` *false* | true `]` <br>Display events without colors
-  * *reverse* = false `[` *false* | true `]` <br>Display events in reverse order
-  * *noresults* = "Nada" `[` *"No Upcoming Events"* | text `]` <br>Display specified text when no events are returned
+*categories* = "1,2,3" `[` one or more comma separated category ids `]` *all categories are displayed when undefined* <br>Display only events associated with listed [#Category_IDs category ids*]
+  
+*excluded* = true `[` *false* | true `]` <br>Display only events NOT associated with categories listed in the categories parameter<br>*Tip*: _Consider using the *excluded* parameter for setups with many categories in situations where fewer categories are to be omitted from display - it means less typing, and also automatically includes any newly created category ids without changes to the shortcode parameters._
+
+*start* = "2011-07-10" `[` "*today*" | [#Available_Date_Inputs Available Date Inputs] `]` <br>Display events starting on or after the specified date
+
+*end* = "tomorrow" `[` *"+1 year"* | [#Available_Date_Inputs Available Date Inputs] `]` <br>Display events ending on or before the specified date
+
+*limit* = 5 `[` *15* | integer `]` <br>Limit events displayed to the specified integer
+
+*whitelabel* = true `[` *false* | true `]` <br>Display events without colors
+
+*reverse* = false `[` *false* | true `]` <br>Display events in reverse order
+
+*noresults* = "Nada" `[` *"No Upcoming Events"* | text `]` <br>Display specified text when no events are returned
 
 = Available Date Inputs =
   # YYYY-MM-DD
