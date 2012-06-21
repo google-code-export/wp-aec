@@ -6,7 +6,7 @@ _Shortcode options are listed in the following format_
   
 *excluded* = true `[` *false* | true `]` <br>Display only events NOT associated with categories listed in the categories parameter
 
-*Tip*: _Consider using the *excluded* parameter if your setups has many categories and you only want to omit a few categories - it can mean less typing, and has the added benefit of automatically including any newly created categories without changes to the shortcode parameters._
+*Tip*: _Consider using the *excluded* parameter if your setups has many categories and you only want to omit a few categories - it can mean less typing, and has the added benefit of automatically including any newly created categories without making changes to the shortcode parameters._
 
 *start* = "2011-07-10" `[` "*today*" | [#Available_Date_Inputs Available Date Inputs] `]` <br>Display events starting on or after the specified date
 
