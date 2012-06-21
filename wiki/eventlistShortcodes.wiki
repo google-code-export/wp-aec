@@ -3,8 +3,7 @@ _Shortcode options are listed in the following format_
 <br>*option* = "sample value" `[` *default* | valid input type `]`
 
 *categories* = "1,2,3" `[` *all* | one or more comma separated category ids `]`
-<br>Category ids listed on the plugin Manage Categories page
-<br>Display only events associated with listed categories
+<br>Display only events associated with listed [#manage_categories category ids*]
 
 *excluded* = true `[` *false* | true `]`
 <br>Display only events NOT associated with categories listed in the categories parameter
@@ -42,3 +41,6 @@ _Acceptable dates input include:_
     * yesterday
     * tomorrow
     * today
+
+= Manage Categories =
+Category ids listed on the plugin Manage Categories page
