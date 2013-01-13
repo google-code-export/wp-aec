@@ -61,9 +61,9 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
 
 == I want to grant calendar rights to a user without giving them access to all blog administrative menus ==
   * Install a [http://sct.temple.edu/blogs/it/2011/02/16/members-vs-capability-manager-plug-in/ Capabilities/Roles management plugin], and assign the capabilities listed in the plugin description, to existing or newly created roles.
- * Users assigned the *aec_add_events* capability can edit and delete events they create by clicking on events in the administrative calendar page.
-  * Users assigned the *aec_manage_events* capability can edit and delete all events.
-  * Users assigned the *aec_manage_calendar* capability can manage categories, and calendar settings.
+    * Users assigned the *aec_add_events* capability can edit and delete events they create by clicking on events in the administrative calendar page.
+    * Users assigned the *aec_manage_events* capability can edit and delete all events.
+    * Users assigned the *aec_manage_calendar* capability can manage categories, and calendar settings.
 
 == Is there a way to configure the !WordPress to allow users that come to the site to can register and create their own events (so not every event would need to be created by the administrator)? ==
   * Absolutely!  If you allow users to self-register and you'll need to change !WordPress settings so that the default role assigned to new users is Calendar Contributor.
