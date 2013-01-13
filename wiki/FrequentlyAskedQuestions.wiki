@@ -60,8 +60,8 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
   * Only users assigned the aec_manage_calendar capability can manage categories.
 
 == I want to grant calendar rights to a user without giving them access to all administrative menus ==
-  * First you will need a Capabilities/Roles management plugin, such as  [http://wordpress.org/extend/plugins/members/ Members]
-  * Assign the capabilities listed below, to existing or newly created roles.
+  * First, download a Capabilities/Roles management plugin, such as  [http://wordpress.org/extend/plugins/members/ Members]
+  * Next, based on your needs assign any/all of the capabilities listed below, to existing or new custom roles.
     * Users assigned the *aec_add_events* capability can edit and delete events they create by clicking on events in the administrative calendar page.
     * Users assigned the *aec_manage_events* capability can edit and delete all events.
     * Users assigned the *aec_manage_calendar* capability can manage categories, and calendar settings.
