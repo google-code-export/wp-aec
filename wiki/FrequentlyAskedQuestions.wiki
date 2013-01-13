@@ -59,8 +59,9 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
   * To add a category: simply enter the desired category name in the input field, select a background color via the colorpicker or enter the hex value in the field provided.
   * Only users assigned the aec_manage_calendar capability can manage categories.
 
-== I want to grant calendar rights to a user without giving them access to all blog administrative menus ==
-  * Install a [http://sct.temple.edu/blogs/it/2011/02/16/members-vs-capability-manager-plug-in/ Capabilities/Roles management plugin], and assign the capabilities listed in the plugin description, to existing or newly created roles.
+== I want to grant calendar rights to a user without giving them access to all administrative menus ==
+  * First you will need a Capabilities/Roles management plugin, such as  [http://wordpress.org/extend/plugins/members/ Members]
+  * Assign the capabilities listed below, to existing or newly created roles.
     * Users assigned the *aec_add_events* capability can edit and delete events they create by clicking on events in the administrative calendar page.
     * Users assigned the *aec_manage_events* capability can edit and delete all events.
     * Users assigned the *aec_manage_calendar* capability can manage categories, and calendar settings.
