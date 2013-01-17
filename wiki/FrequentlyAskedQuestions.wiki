@@ -1,25 +1,31 @@
 #labels Phase-Support
 = FAQ =
 
-== I see this error message on my screen: Another plugin/theme has made jQuery unavailable for Ajax Event Calendar. ==
-  
-  * Switch to the Twenty Twelve theme.  If this message disappears and the calendar works, the conflict is caused by your theme - ask the theme author to resolve the issue.
+== Eeek! Ajax Event Calendar Stopped Working / Doesn't Work ==
+This is typically caused by a conflict with another plugin/theme.  Before submitting a bug to the issue tracker, follow these troubleshooting tips to isolate and identify the problem accurately:
+  * Switch to the default WordPress Theme (Twenty Twelve as of this update). If the calendar works, the conflict is caused by your theme - ask the theme author to investigate.
 
-  * If the error message is still present, disable all plugins except the Ajax Event Calendar.  With all possible external conflicts disabled view your the calendar using Firefox browser with [http://getfirebug.com/ Firebug plugin] activated.  
+  * Still doesn't work...?  Disable all plugins except the Ajax Event Calendar. With all possible external conflicts now disabled, the calendar should work.
 
-  * If the calendar still does not work !JavaScript errors may appear in the Firebug Console - by file name and line number of each error.
+  * Still no luck...?  Check your /wp-content folder for a file called "debug.log" - it may contain errors regarding the cause of the conflict.  If there are no errors that directly mention Ajax Event Calendar, check for javascript errors via your browser's javascript console. 
 
-  * If no !JavaScript errors are displayed in the Firebug Console check your /wp-content folder for "debug.log" file - if it exists it may contain errors regarding the cause of the conflict.  If the debug.log file does not exist, check your PHP error log (ask your hosting service if you don't know where that file is located).
+  * JavaScript errors may appear in the console, listing both the filename and the line number of each error.  Reload the calendar page in the browser and note any errors you find.  If any errors mention Ajax Event Calendar, be sure to include them in your bug report.
+
+  * If you use Firefox browser, and I highly recommend using the [http://getfirebug.com/ Firebug plugin] to debug javascript conflicts.
+
+----
+
+  * If the calendar works as expected, begin restoring your original plugins one by one, check the calendar after each.
+
+  * When the calendar stops functioning, you'll have a culprit.  Note the error in the console, it will be helpful when reporting the error to the  plugin/theme developers.
+
+----
 
   * If no errors appear in either the Firebug Console or the PHP logs, search the [http://code.google.com/p/wp-aec/issues/list?can=1 Issue Tracker] for known bugs and resolutions.
 
-  * If you can't find your issue, submit a bug report on the  [http://code.google.com/p/wp-aec/issues/list?can=1 Issue Tracker], include ALL STEPS necessary to reproduce the issue - if I am unable to reproduce the problem I will not be able to assist.
+  * If you can't find your issue, submit a bug report on the  [http://code.google.com/p/wp-aec/issues/list?can=1 Issue Tracker], be sure to include ALL STEPS necessary to reproduce the issue - if I am unable to reproduce the problem I will not be able to assist.
 
-  * If the calendar works as expected, begin restoring your original plugins one by one, check the calendar after each.
-  
-  * When the calendar stops functioning, note the error in the firebug console.  If the error is caused by a file in another plugin or a theme, contact that plugin/theme author for assistance.
-  
-  * Due to time constraints, I am unable to freely offer troubleshooting assistance.  If you're stuck post your questions on the forum so that others can try to help.  And if you are interested in hiring me for consultation or custom solution development, I am available at a fare hourly rate.
+  * Finally, I do not freely offer WordPress implementation assistance.  If you are interested in hiring me for consultation, I am available at a fare hourly rate.  
 
 == I have a feature request for the plugin, what steps should I take? ==
 Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for enhancement requests.
