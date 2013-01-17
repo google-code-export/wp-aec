@@ -30,6 +30,11 @@ This is typically caused by a conflict with another plugin/theme.  Before submit
 == I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only see the link for "Add Events" and the filter color boxes. ==
   * See Answer One
 
+== The administrative calendar appears, but the front-end calendar does not ==
+  * Did you add the `[calendar]` shortcode to a page, post or text widget?
+  * Read the plugin [http://wordpress.org/extend/plugins/ajax-event-calendar/installation/ installation guide].
+ * See Answer One
+
 == I have a feature request for the plugin, what steps should I take? ==
 Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for enhancement requests.
   * If you find your request already in queue, *click on the star* beside the issue number to indicate your interest in the feature.
@@ -43,10 +48,6 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
 
 == The front-end calendar does not work in my custom theme ==
   * Make sure your theme templates contain `<?php wp_head(); ?>` just before the closing `</head>` tag and `<?php wp_footer(); ?>` just before the closing `</body>` tag.
-
-== The administrative calendar appears, but the front-end calendar does not ==
-  * Did you add the `[calendar]` shortcode to a page, post or text widget?
-  * Read the plugin [http://wordpress.org/extend/plugins/ajax-event-calendar/installation/ installation guide].
 
 == All apostrophes in the event detail form, returns \' when I save the event.  And returns \\' on subsequent saves ==
   * This will occur when your PHP server is configured to use magic quotes gpc. 
