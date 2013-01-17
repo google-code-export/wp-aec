@@ -7,11 +7,11 @@ This is typically caused by a conflict with another plugin/theme.  Before submit
 
   * Still doesn't work...?  Disable all plugins except the Ajax Event Calendar. With all possible external conflicts now disabled, the calendar should work.
 
-  * Still no luck...?  Check your /wp-content folder for a file called "debug.log" - it may contain errors regarding the cause of the conflict.  If there are no errors that directly mention Ajax Event Calendar, check for javascript errors via your browser's javascript console. 
+  * Still no luck...?  Check your /wp-content folder for a file called "debug.log" - it may contain errors regarding the cause of the conflict.  If there are no errors that directly mention Ajax Event Calendar, check for !JavaScript errors via your browser's !JavaScript console. 
 
-  * JavaScript errors may appear in the console, listing both the filename and the line number of each error.  Reload the calendar page in the browser and note any errors you find.  If any errors mention Ajax Event Calendar, be sure to include them in your bug report.
+  * !JavaScript errors may appear in the console, listing both the filename and the line number of each error.  Reload the calendar page in the browser and note any errors you find.  If any errors mention Ajax Event Calendar, be sure to include them in your bug report.
 
-  * If you use Firefox browser, and I highly recommend using the [http://getfirebug.com/ Firebug plugin] to debug javascript conflicts.
+  * If you use Firefox browser, and I highly recommend using the [http://getfirebug.com/ Firebug plugin] to debug !JavaScript conflicts.
 
 ----
 
