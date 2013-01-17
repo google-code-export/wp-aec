@@ -43,7 +43,7 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
 
 == The administrative calendar appears, but the front-end calendar does not ==
   * Did you add the `[calendar]` shortcode to a page, post or text widget?
-  * Read the plugin [PluginInstallation installation guide].
+  * Read the plugin [http://wordpress.org/extend/plugins/ajax-event-calendar/installation/ installation guide].
 
 == I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only see the link for "Add Events" and the filter color boxes. ==
   * See [https://code.google.com/p/wp-aec/wiki/FrequentlyAskedQuestions#I_have_an_issue_with_the_plugin,_what_steps_should_I_take? the first FAQ answer].
