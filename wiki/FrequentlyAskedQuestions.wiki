@@ -117,6 +117,3 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
 
 == The calendar does not work when SSL logins for !WordPress Administrators are forced with “define('FORCE_SSL_ADMIN', true);” in the wp-config.php file. == 
 This issue can be resolved by overriding the URL in the plugin code to the http:// version instead of the https:// version that is returned by the "admin_url()" function.
-
-== When I try to activate the plugin I get an error about my PHP version ==
-  * Search your ISP host's FAQ for "How can I enable PHP5?"
