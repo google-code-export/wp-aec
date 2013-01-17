@@ -27,6 +27,9 @@ This is typically caused by a conflict with another plugin/theme.  Before submit
 
   * Finally, I do not freely offer WordPress implementation assistance.  If you are interested in hiring me for consultation, I am available at a fare hourly rate.  
 
+== I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only see the link for "Add Events" and the filter color boxes. ==
+  * See Answer One
+
 == I have a feature request for the plugin, what steps should I take? ==
 Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for enhancement requests.
   * If you find your request already in queue, *click on the star* beside the issue number to indicate your interest in the feature.
@@ -44,12 +47,6 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
 == The administrative calendar appears, but the front-end calendar does not ==
   * Did you add the `[calendar]` shortcode to a page, post or text widget?
   * Read the plugin [http://wordpress.org/extend/plugins/ajax-event-calendar/installation/ installation guide].
-
-== I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only see the link for "Add Events" and the filter color boxes. ==
-  * See [https://code.google.com/p/wp-aec/wiki/FrequentlyAskedQuestions#I_have_an_issue_with_the_plugin,_what_steps_should_I_take? the first FAQ answer].
-
-== Calendar categories are not displaying in the calendar and only the "all" link in the event filter has a background color OR The category colors no longer appear in the filter, the calendar or the event list. ==
-  * [http://code.google.com/p/wp-aec/issues/detail?id=56 See issue 56]
 
 == All apostrophes in the event detail form, returns \' when I save the event.  And returns \\' on subsequent saves ==
   * This will occur when your PHP server is configured to use magic quotes gpc. 
