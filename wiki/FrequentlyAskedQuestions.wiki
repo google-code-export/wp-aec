@@ -82,8 +82,8 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
 == What happens to events when a category is deleted? ==
   * Upon deletion, all events associated with a deleted category will be reassigned to the primary category.
 
-== I want to include the calendar to my theme.  Is there a way to call and display the calendar without short codes? ==
-  * Yes, place this code in your template at the desired location `<?php echo do_shortcode('[calendar]') ?>`.
+== How can I include the calendar directly in my theme without using shortcodes? ==
+  * Place this code in your template at the desired location `<?php echo do_shortcode('[calendar]') ?>`.
 
 == Does the AEC support the !WordPress Network (Multisite) feature? When I tried to implement it on a multisite I was unable to add events or categories on any of the sub sites except the primary. ==
   * The plugin does not specifically support multisite setups.  However, one user claims the plugin works if "activated on a site-by-site basis."
