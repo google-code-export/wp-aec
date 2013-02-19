@@ -25,7 +25,7 @@ This is typically caused by a conflict with another plugin/theme.  Before submit
 
   * If you can't find your issue, submit a bug report on the  [http://code.google.com/p/wp-aec/issues/list?can=1 Issue Tracker], be sure to include ALL STEPS necessary to reproduce the issue - if I am unable to reproduce the problem I will not be able to assist.
 
-  * Finally, I do not freely offer WordPress implementation assistance.  If you are interested in hiring me for consultation, I am available at a fare hourly rate.  
+  * Finally, I do not freely offer !WordPress implementation assistance.  If you are interested in hiring me for consultation, I am available at a fare hourly rate.  
 
 == I added the `[calendar]` shortcode to a page, but I can't see the calendar.  I only see the link for "Add Events" and the filter color boxes. ==
   * See Answer One
