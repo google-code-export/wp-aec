@@ -26,6 +26,10 @@
 <br>defaults to _month_ when unassigned
 <br>Display the specified calendar view
 
+*views* = "agendaDay, basicWeek" `[`one or more comma separated view labels | false `]`
+<br>defaults to _"month,agendaWeek"_ when unassigned
+<br>Display the specified view options in the calendar header - input *false* to hide the default view options
+
 *month* = 10 `[`integer`]`
 <br>defaults to _current month_ when unassigned
 <br>Display the specified calendar month on load
@@ -33,10 +37,6 @@
 *year* = 2001 `[`four digit integer`]`
 <br>defaults to _current year_ when unassigned
 <br>Display the specified calendar year on load
-
-*views* = "agendaDay, basicWeek" `[`one or more comma separated view labels | false `]`
-<br>defaults to _"month,agendaWeek"_ when unassigned
-<br>Display the specified view options in the calendar header - input *false* to hide the default view options
 
 *nav* = false `[`false`]`
 <br>defaults to _true_ when unassigned
@@ -50,7 +50,7 @@
 <br>defaults to _automatic_ when unassigned
 <br>Assign a minimum pixel height to the calendar
 
-*mini* = true `[`true`]`
+*mini* = true `[`false`]`
 <br>defaults to _false_ when unassigned
 <br>Display the calendar as a minicalendar, displays nicely when applied within a sidebar or footer text widget
 
