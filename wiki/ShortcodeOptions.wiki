@@ -1,6 +1,10 @@
 #labels Phase-Deploy
 =Shortcode Options=
 
+<br>_Examples_
+<br>`[calendar categories="1,2,3" filter=2 month=8 views=false scroll=true]`
+<br>`[eventlist categories="1,2,3" excluded=true start="2011-09-01' end="+3 Weeks" limit=5 noresults="No Events Available"]`
+
 ===`[`calendar`]` and `[`eventlist`]` optional parameters===
 
 *categories* = "1,2,3" `[`one or more comma separated category ids`]` <br>defaults to _all categories_ when unassigned
@@ -72,7 +76,3 @@
 *noresults* = "No Results" `[`text`]` 
 <br>defaults to _"No Upcoming Events"_ when unassigned
 <br>Display this message when no events are returned
-
-<br>_Examples_
-<br>`[calendar categories="1,2,3" filter=2 month=8 views=false scroll=true]`
-<br>`[eventlist categories="1,2,3" excluded=true start="2011-09-01' end="+3 Weeks" limit=5 noresults="No Events Available"]`
