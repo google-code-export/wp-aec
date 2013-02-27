@@ -42,7 +42,7 @@
 <br>defaults to _true_ when unassigned
 <br>Display calendar navigation buttons
 
-*scroll* = true `[`true`]`
+*scroll* = true `[`false`]`
 <br>defaults to _false_ when unassigned
 <br>Activate calendar mousewheel navigation
 
