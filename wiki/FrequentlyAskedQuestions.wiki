@@ -36,9 +36,7 @@ This is typically caused by a conflict with another plugin/theme.  Before submit
  * See Answer One
 
 == Your server has PHP magic_quotes_gpc set to active. This produces formatting errors in the Ajax Event Calendar plugin. Learn how to disable this setting in this forum thread. Ask your host provider for help. ==
-  * If the recommendations in the forum don't work out, try the following:
-  Add the following line in your .htaccess file
-  php_value magic_quotes_gpc off
+  * If the recommendations in the forum don't work out, try adding the following line in your .htaccess file: php_value magic_quotes_gpc off
 
 == I have a feature request for the plugin, what steps should I take? ==
 Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for enhancement requests.
