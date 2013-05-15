@@ -97,7 +97,8 @@ Search the [http://code.google.com/p/wp-aec/issues/list?can=1 issue tracker] for
   * For helpful resources to start you off, search for "Print Style Sheets" in your favorite search engine.
 
 == How can I add images to the event detail? ==
-  * Insert the image in the description field of the desired event, don't forget to include a height parameter or your event detail box may not size correctly.
+  * Insert a hot-linked or local image anywhere in the description field, just don't forget to include a height parameter or your event detail box will not size correctly.
+  * For example: `<img src="mywebsite.com/images/myimage.jpg" height="300px"\>`
 
 == How can I hide the Duration box and text? ==
   * Add `#aec-modal .duration{display:none}` to *your theme css file*.
