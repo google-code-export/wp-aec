@@ -1,6 +1,12 @@
 #labels Phase-Support
 = FAQ =
 
+I am no longer able to update/support the Ajax Event Calendar plugin for `WordPress`. 
+
+Alternative Free Calendar Plugins:
+http://www.blazdesign.com/5-free-wordpress-calendar-plugins/
+
+
 == Eeek! Ajax Event Calendar Stopped Working / Doesn't Work ==
 This is typically caused by a conflict with another plugin/theme.  Before submitting a bug to the issue tracker, follow these troubleshooting tips to isolate and identify the problem accurately:
   * Switch to the default !WordPress Theme ([http://wordpress.org/extend/themes/twentytwelve Twenty Twelve] as of this update). If the calendar works, the conflict is caused by your theme - ask the theme author to investigate.
